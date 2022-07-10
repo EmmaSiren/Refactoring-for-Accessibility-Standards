@@ -14,8 +14,4 @@ https://emmasiren.github.io/module-1-challenge/
 
 The following image shows the web application when loaded correctly: 
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
-
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
+![img](assets/images/screenshot.png)
