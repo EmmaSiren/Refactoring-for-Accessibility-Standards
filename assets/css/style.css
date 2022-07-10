@@ -21,11 +21,13 @@ h1 {
     display: inline-block;
     font-size: 48px;
 }
+
 /* Changed selector from CLASS to TYPE. Simplified to h1 .seo */
 h1 .seo {
     color: #d9dcd6;
 }
-/* Changed selector from CLASS to TYPE. Changed div to nav. Simplified to nav */
+
+/* Changed selector from CLASS to TYPE. Changed header div to header nav. Simplified to nav */
 nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -56,6 +58,7 @@ p {
     background-position: center;
 }
 
+/* Moved .content up to follow semantic structure of HTML elements */
 .content {
     width: 75%;
     display: inline-block;
@@ -72,7 +75,29 @@ p {
     margin-left: 25px;
 }
 
-.benefits {
+/* Grouped .search-engine-optimization, .online-reputation-management, .social-media-marketing since all have identical styling. Changed to .services */
+.services {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* Grouped .search-engine-optimization img, .online-reputation-management img, .social-media-marketing img since all have identical styling. Changed to .services img */
+.services img {
+    max-height: 200px;
+}
+
+/* Grouped .search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2 since all have identical styling. Changed selector from CLASS to TYPE. Simplified to h2 */
+h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* Changed .benefit to aside */
+aside {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -83,108 +108,26 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead {
+/* Simplified .benefit-lead, .benefit-brand, .benefit-cost to .benefit since all have identical styling */
+.benefit {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
+/* Simplified .benefit-lead h3, .benefit-brand h3, .benefit-cost h3 to h3 since all have identical styling */
+h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
+/* Simplified .benefit-lead img, .benefit-brand img, .benefit-cost img to .benefit img since all have identical styling */
+.benefit img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/* Changed selector from CLASS to TYPE */
 footer {
     padding: 30px;
     clear: both;
@@ -192,7 +135,7 @@ footer {
     text-align: center;
 }
 
-/* Changed h2 to h4 */
-footer h4 {
+/* Changed selector from CLASS to TYPE. Changed h2 to h4. Simplified to h4 */
+h4 {
     font-size: 20px;
 }
