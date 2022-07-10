@@ -127,6 +127,11 @@ h3 {
     max-width: 150px;
 }
 
+/* Added .display-none and styled it to hide footer */
+.display-none {
+    display: none;
+}
+
 /* Changed selector from CLASS to TYPE */
 footer {
     padding: 30px;
