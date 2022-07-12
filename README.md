@@ -1,5 +1,5 @@
-# <module-1-challenge>
-# Model-1-Challenge: Refactoring for Accessibility Standards
+# <Refactoring for Accessibility Standards>
+# Refactoring for Accessibility Standards
 ![html](https://img.shields.io/badge/HTML-50.0%25-blue)
 ![css](https://img.shields.io/badge/CSS-50.0%25-blue)
 ## Description
@@ -10,7 +10,7 @@ This week's challenge was to refactor the starter code provided in order to make
 ## Usage
 
 To view the website application please follow the provided link:
-https://emmasiren.github.io/module-1-challenge/
+https://emmasiren.github.io/Refactoring-for-Accessibility-Standards/
 
 The following image shows the web application when loaded correctly: 
 
